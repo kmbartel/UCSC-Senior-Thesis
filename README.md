@@ -1,7 +1,7 @@
-This contains all of the relevant pieces of my undergraduate senior thesis, conducted at UC Santa Cruz in Winter/Spring 2024.
+This project contains all of the relevant pieces of my undergraduate senior thesis, conducted at UC Santa Cruz in Winter-Spring 2024. 
 
-To see the Python code I wrote for the project, see the "MSP Populations, Ellipticities, GWs.ipynb" file.
-To see a copy of my written thesis, see the "Bartel_Senior_Thesis.pdf" file.
-To see a ccopy of the presentation on my findings given at the UCSC SCOOP Senior Thesis Fair, see the "Senior Thesis Presentation.pdf" file.
+1. To see the Python code I wrote for the project, see the "MSP Populations, Ellipticities, GWs.ipynb" file. The goal of this code is to constrain the cause of the Galactic Center Excess by generating the gravitational wave (GW) signal accompanying an unresolved population of millisecond pulsars (MSPs) in the center of the Milky Way and analyzing the detectable population using current and planned GW detector sensitivities. This was done by sampling MSP density distributions using MCMC and Inverse Transform methods to generate a population of MSPs, calculating the corresponding ellipticities from MSPs' internal magnetic fields, generating the rotational frequencies of MSPs using a Gaussian distribution derived from ATNF catalog data, generating the corresponding GW signal and smoothing with a few different angular resolutions, and creating histograms displaying the distribution of the average number of detectable MSPs and their corresponding GW frequency for the detectable MSPs in 50 different generated populations. See the comments in the code for further detail. This work was conducted using the MCMC Python package emcee (https://emcee.readthedocs.io/en/stable/).
+2. To see a copy of my written thesis, see the "Bartel_Senior_Thesis.pdf" file.
+3. To see a copy of the presentation on my findings given at the UCSC SCOOP Senior Thesis Fair, see the "Senior Thesis Presentation.pdf" file.
 
 This work would have been impossible without the guidance and support of my advisor, Stefano Profumo.
